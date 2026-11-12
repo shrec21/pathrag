@@ -1,0 +1,14 @@
+[project]
+name = "pathrag"
+version = "0.1.0"
+description = "Retrieval-augmented descriptions for pathology images, on top of the Backstitch graph index"
+requires-python = ">=3.10"
+dependencies = ["numpy", "faiss-cpu", "pillow"]
+
+[project.optional-dependencies]
+embed = ["torch", "transformers", "datasets"]
+dev = ["pytest", "pybind11"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
