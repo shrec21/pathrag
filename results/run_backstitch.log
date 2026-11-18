@@ -1,0 +1,12 @@
+built backstitch:background indexes in 8.3s; 2599 train images, 858 test images, 3357 open-ended questions
+mode      subset          @1      @3      @5      @10     @20   
+----------------------------------------------------------------
+image     all             0.363   0.466   0.506   0.557   0.613 
+image     no_near_dups    0.292   0.398   0.444   0.503   0.563 
+patch     all             0.394   0.496   0.524   0.571   0.606 
+patch     no_near_dups    0.329   0.434   0.466   0.522   0.563 
+text      all             0.060   0.117   0.163   0.233   0.310 
+text      no_near_dups    0.063   0.119   0.157   0.222   0.298 
+random    all             0.026   0.065   0.107   0.179   0.289 
+random    no_near_dups    0.024   0.058   0.101   0.164   0.266 
+saved runs/presence_test_backstitch-background_1795023101.json
