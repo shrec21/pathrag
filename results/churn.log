@@ -1,0 +1,66 @@
+2599 train images, 1559 live at start; per round retract 103, reingest 51, annotate 103 (x16 patches each); 300 query images
+  flat                   round  0: live  1559  recall@10 1.0000  presence@5 0.449  backlog 0
+  flat                   round  1: live  1559  recall@10 1.0000  presence@5 0.460  backlog 0
+  flat                   round  2: live  1559  recall@10 1.0000  presence@5 0.435  backlog 0
+  flat                   round  3: live  1559  recall@10 1.0000  presence@5 0.435  backlog 0
+  flat                   round  4: live  1559  recall@10 1.0000  presence@5 0.444  backlog 0
+  flat                   round  5: live  1559  recall@10 1.0000  presence@5 0.431  backlog 0
+  flat                   round  6: live  1559  recall@10 1.0000  presence@5 0.427  backlog 0
+  flat                   round  7: live  1559  recall@10 1.0000  presence@5 0.428  backlog 0
+  flat                   round  8: live  1559  recall@10 1.0000  presence@5 0.440  backlog 0
+  flat                   round  9: live  1559  recall@10 1.0000  presence@5 0.435  backlog 0
+  flat                   round 10: live  1559  recall@10 1.0000  presence@5 0.441  backlog 0
+  hnsw                   round  0: live  1559  recall@10 0.9908  presence@5 0.448  backlog 0
+  hnsw                   round  1: live  1559  recall@10 0.9974  presence@5 0.460  backlog 0
+  hnsw                   round  2: live  1559  recall@10 0.9986  presence@5 0.435  backlog 0
+  hnsw                   round  3: live  1559  recall@10 0.9922  presence@5 0.435  backlog 0
+  hnsw                   round  4: live  1559  recall@10 0.9903  presence@5 0.443  backlog 0
+  hnsw                   round  5: live  1559  recall@10 0.9898  presence@5 0.430  backlog 0
+  hnsw                   round  6: live  1559  recall@10 0.9883  presence@5 0.426  backlog 0
+  hnsw                   round  7: live  1559  recall@10 0.9853  presence@5 0.427  backlog 0
+  hnsw                   round  8: live  1559  recall@10 0.9891  presence@5 0.439  backlog 0
+  hnsw                   round  9: live  1559  recall@10 0.9873  presence@5 0.435  backlog 0
+  hnsw                   round 10: live  1559  recall@10 0.9878  presence@5 0.441  backlog 0
+  backstitch:lazy_only   round  0: live  1559  recall@10 0.9970  presence@5 0.449  backlog 0
+  backstitch:lazy_only   round  1: live  1559  recall@10 0.9985  presence@5 0.460  backlog 2464
+  backstitch:lazy_only   round  2: live  1559  recall@10 0.9980  presence@5 0.435  backlog 4928
+  backstitch:lazy_only   round  3: live  1559  recall@10 0.9975  presence@5 0.437  backlog 7392
+  backstitch:lazy_only   round  4: live  1559  recall@10 0.9971  presence@5 0.444  backlog 9856
+  backstitch:lazy_only   round  5: live  1559  recall@10 0.9957  presence@5 0.431  backlog 12320
+  backstitch:lazy_only   round  6: live  1559  recall@10 0.9953  presence@5 0.427  backlog 14784
+  backstitch:lazy_only   round  7: live  1559  recall@10 0.9957  presence@5 0.428  backlog 17248
+  backstitch:lazy_only   round  8: live  1559  recall@10 0.9954  presence@5 0.440  backlog 19712
+  backstitch:lazy_only   round  9: live  1559  recall@10 0.9955  presence@5 0.440  backlog 22176
+  backstitch:lazy_only   round 10: live  1559  recall@10 0.9949  presence@5 0.445  backlog 24640
+  backstitch:inline      round  0: live  1559  recall@10 0.9970  presence@5 0.449  backlog 0
+  backstitch:inline      round  1: live  1559  recall@10 0.9985  presence@5 0.460  backlog 0
+  backstitch:inline      round  2: live  1559  recall@10 0.9975  presence@5 0.435  backlog 0
+  backstitch:inline      round  3: live  1559  recall@10 0.9964  presence@5 0.435  backlog 0
+  backstitch:inline      round  4: live  1559  recall@10 0.9964  presence@5 0.444  backlog 0
+  backstitch:inline      round  5: live  1559  recall@10 0.9963  presence@5 0.431  backlog 0
+  backstitch:inline      round  6: live  1559  recall@10 0.9964  presence@5 0.427  backlog 0
+  backstitch:inline      round  7: live  1559  recall@10 0.9946  presence@5 0.428  backlog 0
+  backstitch:inline      round  8: live  1559  recall@10 0.9946  presence@5 0.440  backlog 0
+  backstitch:inline      round  9: live  1559  recall@10 0.9944  presence@5 0.440  backlog 0
+  backstitch:inline      round 10: live  1559  recall@10 0.9946  presence@5 0.441  backlog 0
+  backstitch:background  round  0: live  1559  recall@10 0.9970  presence@5 0.449  backlog 0
+  backstitch:background  round  1: live  1559  recall@10 0.9988  presence@5 0.460  backlog 637
+  backstitch:background  round  2: live  1559  recall@10 0.9983  presence@5 0.435  backlog 1483
+  backstitch:background  round  3: live  1559  recall@10 0.9964  presence@5 0.435  backlog 1428
+  backstitch:background  round  4: live  1559  recall@10 0.9968  presence@5 0.444  backlog 1532
+  backstitch:background  round  5: live  1559  recall@10 0.9958  presence@5 0.431  backlog 1646
+  backstitch:background  round  6: live  1559  recall@10 0.9946  presence@5 0.427  backlog 1709
+  backstitch:background  round  7: live  1559  recall@10 0.9944  presence@5 0.428  backlog 1903
+  backstitch:background  round  8: live  1559  recall@10 0.9943  presence@5 0.440  backlog 1902
+  backstitch:background  round  9: live  1559  recall@10 0.9943  presence@5 0.440  backlog 1815
+  backstitch:background  round 10: live  1559  recall@10 0.9943  presence@5 0.445  backlog 1831
+
+index                  build s min recall end recall end pres@5 del p50 us del p99 us ins p50 us query us flush s
+flat                       0.0     1.0000     1.0000      0.441        0.1        2.5        1.5   1011.6    0.00
+hnsw                       2.6     0.9853     0.9878      0.441        0.1        0.6      100.7    106.7    0.00
+backstitch:lazy_only       4.9     0.9949     0.9949      0.445        0.2        0.5      330.4    164.3    0.00
+backstitch:inline          4.3     0.9944     0.9946      0.441     2996.9    13415.5      725.7    187.6    0.00
+backstitch:background      6.5     0.9943     0.9943      0.445        0.3        2.0      858.9    256.2    1.00
+latencies are per patch vector and include Python call overhead (a few us)
+plot saved to results/churn.png
+saved runs/churn_1795146678.json
